@@ -1,0 +1,66 @@
+    header{
+
+background-color: blueviolet;
+
+padding:10px    ;
+color:white;
+text-align:center;
+}
+    body{
+font-family: 'Nunito', sans-serif;
+background-color : 	#E0FFFF;
+}
+    *{
+
+margin:0;}
+main{
+padding:30px 50px;
+}
+    .card{
+
+background-color:#DCDCDC;
+border : 1px solid white;
+padding:20px;
+margin-top:15px;
+border-radius:25px;
+}
+    .lineinput{
+
+display:grid;
+margin-bottom:10px;
+}
+input{
+padding:10px;
+border:1px solid #4B0082;
+border-radius:5px;
+outline:0;}
+button{
+border:0;
+padding:10px;
+outline:0;
+background-color:#9932CC;
+outline:0;
+border-radius:5px;
+color:white;
+font-weight:bold;
+
+transition: all ease 0.5s}
+
+button:hover{
+background-color:#4B0082;
+}
+
+.content{
+margin-top:30px;
+}
+table{
+
+border-collapse:collapse;
+border:1px solid purple;
+width:100%;
+}
+
+table th{
+background-color:gray;
+color:white
+}

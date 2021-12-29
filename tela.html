@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto JavaScript</title>
+    <link rel="stylesheet" href="tela.css" >
+    <script src="tela.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>A Loja do DonQ</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Produtos</h2>
+            <span>Lista de Produtos da minha loja</span>
+        </div>
+         <div class="card">
+        <div class="lineinput">
+            <label>Produto</label>
+            <input type="text" id="produto"  placeholder="Nome do Produto">
+        </div>
+        <div class="lineinput">
+            <label>Valor</label>
+            <input type="text" id="Valor" placeholder="valor do produto" >
+        </div>
+
+    <button onclick="produto.salvar()">Adicionar</button>
+    <button onclick="produto.excluir()">Deletar</button>
+
+<div class="content">
+    <table border="1">
+        <thead>
+        <th>Id</th>
+        <th>Produto</th>
+        <th>Valor</th>
+            <th>Açoes</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Nike tenis</td>
+            <td>RS 900,00</td>
+            <td></td>
+        </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+</div>
+
+ </main>
+</body>
+</html>
